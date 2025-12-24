@@ -11,5 +11,6 @@ let package = Package(
     targets: [
         .target(name: "CombineCocoa", dependencies: ["Runtime"]),
         .target(name: "Runtime", dependencies: [])
-    ]
+    ],
+    swiftLanguageVersions: [.v5]
 )
